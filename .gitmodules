@@ -1,0 +1,6 @@
+[submodule "libs/teensy_library"]
+	path = libs/teensy_library
+	url = https://github.com/XenGi/teensy_library
+[submodule "libs/teensy.pretty"]
+	path = libs/teensy.pretty
+	url = https://github.com/XenGi/teensy.pretty
