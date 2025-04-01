@@ -1,0 +1,44 @@
+﻿# KiCad
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.tmp
+*.log
+fp-info-cache
+*-cache.lib
+*-rescue.*
+*.net
+*.xml
+__pycache__/
+
+# KiCad v6+
+*.kicad_prl
+
+# 3D / CAD
+*.step
+*.stl
+*.3mf
+*.fcstd
+*.scad
+
+# Firmware (if using PlatformIO or Arduino)
+.vscode/
+.pio/
+*.elf
+*.bin
+*.hex
+*.map
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Compiled objects
+*.o
+*.obj
+*.exe
+*.out
+*.class
+
+# Python helpers (if any scripts)
+*.pyc

@@ -1,0 +1,15 @@
+name: Add new issues to TONK Project
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-to-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add issue to GitHub Project (TONK)
+        uses: actions/add-to-project@v0.5.0
+        with:
+          project-url: https://github.com/joshua-small/TONK/projects/2
+          github-token: ${{ secrets.GITHUB_TOKEN }}

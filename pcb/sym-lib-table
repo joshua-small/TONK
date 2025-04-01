@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TONK")(type "KiCad")(uri "${KIPRJMOD}/tonk.kicad_sym")(options "")(descr ""))
+)

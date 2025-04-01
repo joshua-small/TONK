@@ -1,0 +1,16 @@
+name: Close stale issues
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          stale-issue-message: "This issue has been inactive for 60 days. Closing for now, but feel free to reopen!"
+          days-before-stale: 45
+          days-before-close: 15
+          exempt-issue-labels: 'pinned,do-not-close'
