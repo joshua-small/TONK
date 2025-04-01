@@ -43,6 +43,18 @@ TONK/
 
 ---
 
-## License
+## 🛠️ License
 
-[MIT](LICENSE)
+This project is primarily licensed under the [MIT License](./LICENSE), which covers all code, documentation, and firmware.
+
+### Hardware + Design Files
+
+The hardware and design assets in this repo are licensed separately:
+
+- 📐 [PCB schematics and board layouts](./docs/LICENSE-PCB.md):
+  Licensed under the **CERN Open Hardware License v2 – Weakly Reciprocal (CERN-OHL-W)**
+
+- 🧩 [3D models and mechanical design files](./docs/LICENSE-3D.md):
+  Licensed under the **CERN Open Hardware License v2 – Weakly Reciprocal (CERN-OHL-W)**
+
+For third-party libraries and symbol/footprint attribution, see [docs/README.md](./docs/README.md).
